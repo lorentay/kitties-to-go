@@ -1,12 +1,24 @@
 *  { 
     box-sizing: border-box;
    }
+   .hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+   }
+   .hidden:focus {
+    left: 0;
+   }
 
 
 h3, h4 {
     font-family: "Urbanist", sans-serif;
     color:#2c9ab7;
 } 
+h2, h3 {
+    margin-bottom: 3px;
+
+}
 body {
     color: #505050;
     margin: 20px 0;
@@ -43,6 +55,8 @@ header {
     font-weight: 500;
     font-size: 3.0rem;
     margin-bottom: 10px;
+    top: 55%;
+    left: 35%;
 }
 .banner h2 {
     font-family: "Urbanist", sans-serif;
@@ -74,7 +88,7 @@ header {
     margin: 20px;
 }
 .top-nav a {
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 .top-nav ul li::after {
@@ -83,6 +97,10 @@ header {
 }
 .top-nav ul li:last-child::after {
     content: none;
+}
+nav a {
+    padding: .5rem;
+    margin: .5rem;
 }
 
 
@@ -114,7 +132,7 @@ main {
 }
 .column {
     flex: 1;
-    padding: 30px;
+    padding: 10px;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
@@ -128,10 +146,9 @@ main {
 }
 a {
     color: #2c9ab7;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover {
-    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -169,8 +186,11 @@ a:hover {
     margin-right: 20px;
 }
 .footer nav a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
+}
+.footer a:hover {
+    font-weight: bold;
 }
 .footer nav ul li::after {
     content: "/";
