@@ -15,7 +15,7 @@ h3, h4 {
     color:#2c9ab7;
 } 
 h2, h3 {
-    margin-bottom: 0.19rem;
+    margin-bottom: 0.20rem;
 }
 body {
     color: #505050;
@@ -104,10 +104,12 @@ main {
     margin-top: 0;
     padding: 1.25rem;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
+
 .aside {
     width: 50%;
     position: static;
@@ -116,10 +118,13 @@ img {
     margin-left: 20%;
     padding: 1.25rem;
 }
+
+
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-}
+} 
 .column {
     flex: 1;
     padding: 1rem;
@@ -189,6 +194,19 @@ a:hover {
 }
 .footer nav ul li:last-child::after {
     content: none;
+}
+
+@media print {
+    body img {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main, .aside {
+        width: 100%; /* Make both main and aside occupy full width on smaller screens */
+        float: none; /* Reset float */
+        margin-top: 0; /* Reset margin top */
+    }
 }
 
 
