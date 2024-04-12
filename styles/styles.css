@@ -196,16 +196,23 @@ a:hover {
     content: none;
 }
 
+/* media queries */
+
 @media print {
     body img {
         display: none;
     }
 }
 @media only screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
     .main, .aside {
-        width: 100%; /* Make both main and aside occupy full width on smaller screens */
-        float: none; /* Reset float */
-        margin-top: 0; /* Reset margin top */
+        width: 100%;
+        margin-left: 0;
+    }
+    .aside {
+        margin-top: 1.25rem;
     }
 }
 
