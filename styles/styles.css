@@ -48,7 +48,6 @@ header {
     margin-bottom: 1rem;
     margin-left: 5rem;
     padding-top: 6rem;
-
 }
 .banner-text h2 {
     font-family: "Urbanist", sans-serif;
@@ -201,6 +200,28 @@ a:hover {
 @media print {
     body img {
         display: none;
+    }
+    nav {
+        display: none;
+    }
+    main {
+        display: block;
+    }
+    .main, .aside {
+        width: auto;
+        margin-left: 0;
+    }
+    .aside {
+        margin-top: 1.25rem;
+    }
+    .banner-text h1 {
+        font-size: 2rem; 
+        margin-bottom: 0.5rem; 
+        padding-top: 1rem; 
+    }
+    .banner-text h2 {
+        font-size: 1.2rem; 
+        margin-bottom: 0.3rem; 
     }
 }
 @media only screen and (max-width: 768px) {
