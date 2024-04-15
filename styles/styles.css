@@ -23,9 +23,6 @@ body {
     padding: 0;
     font-family: Tahoma, sans-serif;
 }
-header {
-    padding: 3rem;
-}
 
 
 /* Kitties To Go! banner */
@@ -61,8 +58,6 @@ header {
 /* top navigation menu */
 .top-nav {
    margin-bottom: 0;
-   margin: -3rem 3rem 0;
-   padding-left: 3%;
    border-top: none;
    background-color: #f4f4f4;
 }
