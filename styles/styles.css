@@ -223,12 +223,12 @@ a:hover {
     main {
         flex-direction: column;
     }
-    .main, .aside {
+    .main {
         width: 100%;
         margin-left: 0;
     }
     .aside {
-        margin-top: 1.25rem;
+        display: none;
     }
 }
 
