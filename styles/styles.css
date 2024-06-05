@@ -171,16 +171,16 @@ a:hover {
     align-items: center;
     width: 100%;
     height: 15rem; 
-    padding: 20px;
+    padding: 0.3rem;
     background-color: #0a3c60; 
 }
 .footer-banner p {
     color: #FFFFFF;
 }
 .footer-logo {
-    height: 75px;
+    height: 5rem;
     width: auto;
-    margin-top: 20px;
+    margin-top: 0.3rem;
 }
 .footer-text {
     text-align: center; 
@@ -193,7 +193,7 @@ a:hover {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 15px;
+    gap: 0.9rem;
 }
 .footer-menu ul li a {
     text-decoration: none;
