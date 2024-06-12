@@ -1,6 +1,12 @@
-*  { 
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
    }
+ 
    .hidden {
     position: relative;
     left: -10000px;
@@ -9,13 +15,10 @@
    .hidden:focus {
     left: 0;
    }
-   html {
-    scroll-behavior: smooth;
-   }
+   
    body {
     color: #505050;
     /* margin: 1.25rem 0; */
-    padding: 0;
     font-family: Tahoma, sans-serif;
 }
 
